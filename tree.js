@@ -7,8 +7,8 @@ class Tree{
      this.image = loadImage("PIC/tree.png"); 
      this.x=x;
      this.y=y;
-     this.width = 200;
-     this.hight = 600;
+     this.width = 100;
+     this.hight = 400;
      World.add(world, this.body);
  }
 display(){
