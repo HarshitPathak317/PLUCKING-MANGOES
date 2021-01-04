@@ -3,7 +3,7 @@ class Mango{
 		var options={
 			isStatic:true,
 			restitution :0.01,
-            friction :1,
+            friction :1
 			}
 		this.x=x;
 		this.y=y;
@@ -19,7 +19,7 @@ class Mango{
 		translate(mangoPos.x, mangoPos.y);
 		rotate(this.body.angle);
 		fill(255);
-		ellipseMode(CENTER);
+		imageMode(CENTER);
 		image(this.image, 0,0,this.r*2, this.r*2);
 		pop();
 }
